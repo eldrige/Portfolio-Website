@@ -6,7 +6,7 @@
     <title>Rosie Ellis</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
+     <link rel="stylesheet" href="main.css"> 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://kit.fontawesome.com/bef6ece770.js" crossorigin="anonymous"></script>
 </head>
@@ -36,10 +36,10 @@
     <!-- about section -->
     <section class="about" id="about">
         <div class="container">
-            <div class="profile-img">
-                <img src="images/profile.jpeg" alt="">
+            <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+                <img src="images/profile.jpeg " alt="">
             </div>
-            <div class="about-details">
+            <div class="about-details" data-aos="fade-left" data-aos-delay="600">
                 <div class="about-heading">
                     <h1>About</h1>
                     <h6>Myself</h6>
@@ -82,7 +82,7 @@
                 <h6>what I can do for you</h6>
             </div>
             <div class="my-skills">
-                <div class="skill">
+                <div class="skill" data-aos="fade-in" data-aos-delay="300">
                     <div class="icon-container">
                         <i class="fas fa-layer-group"></i>
                     </div>
@@ -92,7 +92,7 @@
                      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                     </p>
                 </div>
-                <div class="skill">
+                <div class="skill" data-aos="fade-in" data-aos-delay="600">
                     <div class="icon-container">
                         <i class="fas fa-code"></i>
                     </div>
@@ -102,7 +102,7 @@
                      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                     </p>
                 </div>
-                <div class="skill">
+                <div class="skill" data-aos="fade-in" data-aos-delay="900">
                     <div class="icon-container">
                         <i class="fas fa-chart-bar"></i>
                     </div>
@@ -123,26 +123,23 @@
                 <h6>View some of my recent work</h6>
             </div>
             <div class="portfolio-item">
-                <div class="portfolio-description">
+                <div class="portfolio-description has-margin-right" > 
                     <h6>Blog Website</h6>
-                    <h1>web development</h1>
+                    <h1>Web Development</h1>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  
                     </p>
                     <a href="#" class="cta">view-details</a>
                 </div>
-                <div class="portfolio-img has-margin-right">
+                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
                     <img src="images/portitem1.jpeg" alt="">
                 </div>
                 
             </div>
-            <div class="portfolio-item">
-                <div class="portfolio-img">
-                    <img src="images/portitem2.jpeg" alt="">
-                </div>
-                <div class="portfolio-description has-margin-right">
-                    <h6>web design</h6>
+            <div class="portfolio-item"> 
+                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="300">
+                    <h6>Web Design</h6>
                     <h1>Layout</h1>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -150,12 +147,15 @@
                     </p>
                     <a href="#" class="cta">view details</a>
                 </div>
+                <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1200">
+                    <img src="images/portitem2.jpeg" alt="">
+                </div>
             </div>
             <div class="portfolio-item">
-                <div class="portfolio-img has-margin-right">
+                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
                     <img src="images/portitem3.jpeg" alt="">
                 </div>
-                <div class="portfolio-description">
+                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1800">
                     <h6>web design</h6>
                     <h1>Product sketch</h1>
                     <p>
@@ -174,7 +174,7 @@
                 <h1>Work Experience</h1>
                 <h6>Past and current Jobs</h6>
             </div>
-            <div class="timeline">
+            <div class="timeline" data-aos="fade-down" data-aos-delay="300"> 
                 <ul>
                     <li class="date" data-date="2011-Present">
                         <h1>Google</h1>
@@ -208,7 +208,7 @@
                 <h1>Contact</h1>
                 <h6>Let's work together</h6>
             </div>
-            <form action="">
+            <form action="" data-aos="fade-up" data-aos-delay="300">
                 <label for="name">Name</label>
                 <input type="text" id="name" placeholder="Enter your name..." required>
                 <label for="email">Email</label>
@@ -229,7 +229,7 @@
     <!-- footer -->
     <footer class="copyright">
         <div class="up" id="up">
-            <i class="fas fa-chvron-up"></i>
+            <i class="fas fa-chevron-up"></i>
             
         </div>
         <p>&copy; Prince Eldrige</p>
